@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <title>adidas</title>
+  </head>
+  <body>
+    <header>
+      <!-- notification-bar -->
+      <div class="notification-bar flex" id="notification">
+        <p>
+          live race stream from gator nationals in sarasota, fl/
+          <a href="https://www.youtube.com/watch?v=Yqwnn9vpAhA" target="_blank"
+            >watch now</a
+          >
+        </p>
+        <div class="notification-hide flex">
+          <button onclick="remove()" title="close">
+            <img src="./assests/x-mark.png" alt="cross" />
+          </button>
+        </div>
+      </div>
+      <!-- utility-navbar -->
+      <div class="utility-navbar padding flex-between">
+        <div class="logo-text">
+          <div>
+            <img src="./assests/logo.png" alt="logo" />
+          </div>
+          <div class="burger">
+            <img src="./assests/burger-icon.png" alt="burger" />
+          </div>
+        </div>
+        <div class="account-button">
+          <button style="background-color: #217f40" class="member-button">
+            Membership
+          </button>
+          <button style="background-color: #08512d" class="account">
+            Account
+          </button>
+        </div>
+      </div>
+      <!-- secondary-navbar -->
+      <nav
+        class="secondary-navbar padding flex-between v-class h-class translate"
+      >
+        <ul>
+          <div class="list">
+            <li><a href="#">our tracks</a></li>
+          </div>
+          <div class="list">
+            <li><a href="#">find events</a></li>
+          </div>
+          <div class="list">
+            <li><a href="#">track man</a></li>
+          </div>
+          <div class="list">
+            <li><a href="#">shop</a></li>
+          </div>
+          <div class="list">
+            <li><a href="#">about us</a></li>
+          </div>
+        </ul>
+        <div class="search flex">
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="SEARCH"
+            autocomplete="off"
+          />
+          <img src="./assests/search-icon.png" alt="search" />
+        </div>
+      </nav>
+      <!-- title -->
+      <div class="title flex-between">
+        <div class="right-title">
+          <h1>home page</h1>
+        </div>
+        <div class="left-title">
+          <span>partnership by</span>
+          <img src="./assests/reebok-logo.png" alt="reebok-logo" />
+        </div>
+      </div>
+    </header>
+    <!-- hero-section -->
+    <section class="hero-section">
+      <div class="slide flex">
+        <div class="slide-info">
+          <h2>Get ready for new adidas brand</h2>
+          <br />
+          <p>
+            Adidas tracks all begin with a starting gate and end with a finish
+            line, but everything is between varies from track to track. Because
+            no two tracks are alike , this action sport keep you on your toes
+            whenever you are racing
+          </p>
+        </div>
+        <div class="slide-video flex">
+          <img src="./assests/video-thumbnail-img.png" alt="video" />
+          <div class="slide-video-overlay">
+            <img src="./assests//play-icon.png" alt="play" />
+          </div>
+        </div>
+      </div>
+      <div class="trailer">
+        <video src="./assests/video.mp4" controls="true"></video>
+        <img src="./assests/menu-close-icon.png" alt="close" class="close" />
+      </div>
+    </section>
+    <!-- main-body -->
+    <main class="padding main-flex">
+      <div class="main-section">
+        <section class="events">
+          <!-- slide -->
+          <section class="swiper mySwiper main-body">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper main-body-slider">
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+                <div class="swiper-slide main-slide-card flex">
+                  <img
+                    src="./assests/thubnail-slider-img.png"
+                    alt="thubnail-slider-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </section>
+          <!-- aside-events -->
+        </section>
+        <hr class="hr" style="margin-top: 1rem" />
+        <!-- event-card -->
+        <section>
+          <div class="container">
+            <div class="box">
+              <img src="./assests/post-img.png" alt="Error" />
+              <div class="heading">
+                <span>2019 National Champiaons Cowned at Reebook</span><br />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloremque cum dolore incidunt?
+                </p>
+                <button class="btn"><a href="#">READ MORE</a></button>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./assests/post-img.png" alt="Error" />
+              <div class="heading">
+                <span>2019 National Champiaons</span><br />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloremque cum dolore incidunt?
+                </p>
+                <button class="btn"><a href="#">READ MORE</a></button>
+              </div>
+            </div>
+            <div class="box">
+              <img src="./assests/post-img.png" alt="Error" />
+              <div class="heading">
+                <span>2019 National Champiaons Cowned at Reebook</span><br />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Doloremque cum dolore incidunt?
+                </p>
+                <button class="btn"><a href="#">READ MORE</a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- zig-zag-banner -->
+        <section class="banner">
+          <div class="parent-div">
+            <div class="child-div"></div>
+            <div class="banner-heading">
+              <h2>
+                2019 National Champiaons <br />
+                Cowned at Reebook
+              </h2>
+              <br />
+              <p>
+                Membership has its peak joining
+                <span class="banner-span">addidas</span>
+                means you can race at your local tracks
+              </p>
+            </div>
+          </div>
+          <div class="parent-div-two">
+            <div class="banner-heading" style="margin-left: 3rem">
+              <h2>
+                2019 National Champiaons <br />
+                Cowned at Reebook
+              </h2>
+              <br />
+              <p>
+                Membership has its peak joining
+                <span class="banner-span">addidas</span>
+                means you can race at your local tracks
+              </p>
+            </div>
+            <div class="child-div-two"></div>
+          </div>
+        </section>
+      </div>
+      <aside class="event-card">
+        <span class="event-heading">Events</span>
+        <div class="event-list">
+          <ul>
+            <li>
+              <div class="span-style flex">
+                <span>1</span>
+              </div>
+              <div class="event-span-style">
+                <a href="#">Show in Use</a>
+                <p>usa</p>
+              </div>
+            </li>
+            <li>
+              <div class="span-style flex">
+                <span>2</span>
+              </div>
+              <div class="event-span-style">
+                <a href="#">adidas show in use</a>
+                <p>usa</p>
+              </div>
+            </li>
+            <li>
+              <div class="span-style flex">
+                <span>3</span>
+              </div>
+              <div class="event-span-style">
+                <a href="#">adidas show</a>
+                <p>usa</p>
+              </div>
+            </li>
+            <li>
+              <div class="span-style flex">
+                <span>4</span>
+              </div>
+              <div class="event-span-style">
+                <a href="#">Adidas in usa</a>
+                <p>usa</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <section class="contact">
+      <div class="contact-heading">
+        <h2>get in touch with us</h2>
+      </div>
+      <div class="contact-form">
+        <form>
+          <div class="name">
+            <div>
+              <label for="name">Name</label><br />
+              <input
+                type="text"
+                name="name"
+                placeholder="enter name"
+                class="type"
+                autocomplete="off"
+                required
+              /><br />
+            </div>
+            <div>
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                name="email"
+                placeholder="enter email"
+                class="type"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <div class="select-box name">
+            <div>
+              <label for="country">country</label><br />
+              <select name="country" id="country" class="type" required>
+                <option value="" disabled selected>USA</option>
+                <option value="UAE">UAE</option>
+                <option value="EUROPE">EUROPE</option>
+                <option value="SAUDI ARAB">SAUDI ARAB</option>
+                <option value="QATAR">QATAR</option>
+              </select>
+            </div>
+            <div>
+              <label for="state">state</label><br />
+              <select name="state" id="state" class="type" required>
+                <option value="" disabled selected>SILICON VALLAY</option>
+                <option value="SILICON VALLAY">VALLAY</option>
+                <option value="SILICON VALLAY">SILICON</option>
+                <option value="SILICON VALLAY">WASHINGTON</option>
+                <option value="SILICON VALLAY">NEW YORK</option>
+              </select>
+            </div>
+          </div>
+          <div class="radio-box">
+            <label for="gender">gender</label><br />
+            <div style="margin-top: 5px">
+              <input type="radio" name="gender" id="specifyColor" />
+              <span>male</span>
+              <input type="radio" name="gender" id="specifyColor" checked />
+              <span> female</span>
+              <input type="radio" name="gender" id="specifyColor" />
+              <span>other</span>
+            </div>
+          </div>
+          <div class="message">
+            <label for="message">country</label><br />
+            <textarea
+              name="message"
+              cols="10"
+              rows="5"
+              class="textarea"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="form-btn">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">OUR TRACKS</a></li>
+          <a>/</a>
+          <li><a href="#">FIND EVENTS</a></li>
+          <a>/</a>
+          <li><a href="#">TRACK MAP</a></li>
+          <a>/</a>
+          <li><a href="#">SHOP</a></li>
+          <a>/</a>
+          <li><a href="#">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"
+          ><img src="./assests/facebook-icon.png" alt="facebook"
+        /></a>
+        <a href="https://www.twitter.com/"
+          ><img src="./assests/twitter-icon.png" alt="twitter"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="./assests/instagram-icon.png" alt="instagram"
+        /></a>
+        <a href="https://www.linkedin.com/"
+          ><img src="./assests/linkedin-icon.png" alt="linkedin"
+        /></a>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; copyright
+          <script>
+            date = new Date().getFullYear();
+            document.write(date);
+          </script>
+          Adidas
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 23,
+        slidesPerGroup: 4,
+        loop: false,
+        // dynamicMainBullets: 2,
+        loopFillGroupWithBlank: false,
+        grabCursor: true,
+        keyboard: {
+          enabled: true,
+        },
+        breakpoints: {
+          990: {
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+          },
+          900: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+          800: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          600: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+          400: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

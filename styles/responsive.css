@@ -1,0 +1,223 @@
+@media screen and (max-width: 1323px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .padding {
+    padding: 6px;
+  }
+  .right-title h1 {
+    padding-left: 6px;
+  }
+  .hero-section {
+    background-size: 100% 100%;
+  }
+  .container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .trailer video {
+    max-width: 90%;
+  }
+  .hero-section {
+    max-width: 100%;
+  }
+  .slide-info {
+    text-align: start;
+    margin-left: 6px;
+  }
+  .slide-info {
+    font-size: 34px;
+  }
+  .main-flex {
+    flex-direction: column;
+  }
+  .event-card {
+    transform: translate(0px, 0px);
+  }
+  .main-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .secondary-navbar a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .secondary-navbar {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 82vh;
+  }
+  .translate {
+    transform: translateY(100px);
+  }
+  .h-class {
+    height: 0px;
+  }
+  .secondary-navbar ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .list:hover {
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+  }
+  .search {
+    width: 100%;
+  }
+  .search input {
+    width: 100%;
+  }
+  .burger {
+    display: block;
+  }
+  .v-class {
+    visibility: hidden;
+  }
+  .account-button {
+    width: 100%;
+    display: flex;
+  }
+  .account-button button:nth-child(1) {
+    border-right: 1px solid #fff;
+  }
+  .account-button button {
+    width: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .logo-text {
+    display: flex;
+    padding: 10px 20px 10px 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .utility-navbar {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100px;
+    background-image: url("../assests/pattern-bg.png");
+    background-repeat: repeat;
+    background-color: #012b1f;
+  }
+  .title {
+    display: none;
+  }
+  .slide {
+    flex-direction: column-reverse;
+  }
+  .slide-info {
+    width: 100%;
+    padding: 10px;
+  }
+  .slide-info h2 {
+    font-size: 2.5rem;
+  }
+  .slide-info p {
+    font-size: 1rem;
+  }
+  .slide-video img {
+    width: 240px;
+  }
+  .slide-video-overlay img {
+    width: 20px;
+  }
+  .events {
+    padding-top: 5px;
+    flex-direction: column;
+  }
+  .event-card {
+    transform: translateY(0px);
+    /* border-bottom: 1px solid #fff; */
+  }
+  .hr {
+    opacity: 0;
+  }
+  .parent-div {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .parent-div-two {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  .child-div {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-size: 100% 100%;
+  }
+  .child-div-two {
+    width: 100%;
+    background-size: 100% 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+  .banner {
+    margin-bottom: 1rem;
+  }
+  .banner-heading {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0px !important;
+  }
+  .name {
+    flex-direction: column;
+  }
+  .select-box {
+    flex-direction: column;
+  }
+  .radio-box {
+    margin: 0.5rem 0rem;
+  }
+  .contact-heading {
+    padding: 1.5rem;
+    font-size: 18px;
+  }
+  .message {
+    margin-left: 0px !important;
+  }
+  .textarea {
+    width: 250px;
+  }
+  .footer-links ul {
+    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact-form {
+    max-width: 15rem;
+    margin: 0 auto;
+  }
+  .main-flex {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 786px) {
+  .notification-bar {
+    justify-content: start;
+    padding-left: 12px;
+    height: 65px;
+  }
+  .notification-bar p {
+    text-align: start;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .notification-hide {
+    top: 23px;
+  }
+  .container {
+    justify-content: center;
+  }
+}
