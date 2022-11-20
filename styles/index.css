@@ -84,7 +84,7 @@ li {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
-  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
   border: none;
   width: 160px;
   height: 40px;
@@ -121,7 +121,7 @@ li {
 .list:hover {
   background-image: url("../assests/pattern-bg.png");
   background-color: #217f40;
-  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
   cursor: pointer;
 }
 .search {
@@ -169,7 +169,7 @@ li {
   background-image: url("../assests/pattern-bg.png");
   background-repeat: repeat;
   background-color: #fff;
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
   width: 35%;
   height: 100px;
 }
@@ -467,7 +467,7 @@ li {
   height: 238px;
   background-image: url("../assests/zig-zag-img-1.png");
   background-size: 100% 100%;
-  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
 }
 .banner-heading h2 {
   font-size: 20px;
@@ -504,7 +504,7 @@ li {
   height: 238px;
   background-image: url("../assests/zig-zag-img-2.png");
   background-size: 100% 100%;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);
 }
 .banner {
   margin-bottom: 4rem;
